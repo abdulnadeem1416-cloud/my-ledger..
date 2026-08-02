@@ -1,20 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# My Ledger
 
-# Run and deploy your AI Studio app
+A premium personal finance desktop application built to help users track daily expenses, monitor spending habits, manage budgets, and stay motivated to save money.
 
-This contains everything you need to run your app locally.
+## ✨ Features
 
-View your app in AI Studio: https://ai.studio/apps/7f7bfb7b-2e91-41fc-a5af-a7caf9a4abd6
+- 🔐 Secure local login
+- 💰 Daily expense tracking
+- 📊 Spending analytics
+- 🎯 Budget management
+- 📅 Expense history
+- 🌙 Modern dark UI
+- 💻 Native macOS desktop application (Tauri)
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
+- Tauri
+- Rust
 
+## 🚀 Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm install
+npm run tauri dev
+```
+
+## 📦 Build
+
+```bash
+npm run tauri build
+```
+
+## 📄 License
+
+This project is for educational and personal use.
