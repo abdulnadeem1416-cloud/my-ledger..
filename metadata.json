@@ -1,0 +1,6 @@
+{
+  "name": "My Ledger",
+  "description": "A macOS-inspired personal finance desktop app with interactive ledger, analytics, savings goals, and custom preferences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
